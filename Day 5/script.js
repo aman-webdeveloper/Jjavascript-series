@@ -76,11 +76,7 @@ for(let a=0;a<=5; a++){
     }
 }
 
-console.log('*');
-console.log('**');
-console.log('***');
-console.log("****");
-console.log("*****");
+
 
 // while loop
 // let counter =1;
