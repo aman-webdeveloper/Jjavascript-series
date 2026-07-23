@@ -29,7 +29,7 @@ for(let i=1; i<=100; i++)
 }
 console.log(sum);
 
-//anthoer exmaple
+//anthoer exmaple..
 let langauge = 'javasript'
 
 for(let i=0; i<=langauge.length; i++){
