@@ -70,8 +70,74 @@ console.log(x,y,rest);
 }
 calcluatethis(1,2,3,4,4,5,6,7,7,8)
 
+// Nested function
+
+function outer(){
+    console.log('outer');
+    
+
+    function inner(){
+        console.log('inner');
+        
+    }
+
+    //inner()
+}
+
+// const retFunc = outer();
+// console.log(retFunc())
+
+// callback fubction
+
+function fool(){
+    console.log('fool');
+    
+    fool()
+}
+
+let = function(buzz){
+    console.log('buzz');
+}
 
 
+// pure funtion
+
+let greetMsg = "Hello"
+
+function greeting(name){
+    return greetMsg  + name
+}
+
+console.log((greeting("AMAN")));
+console.log((greeting("AMAN")));
+
+greetMsg="hola"
+
+console.log((greeting("AMAN")));
+console.log((greeting("AMAN")));
+console.log((greeting("AMAN")));
 
 
+// higher order function
 
+function getcamera(camera){
+    camera();
+}
+
+getcamera(function() {
+    console.log('sony')
+})
+
+function retFunct(){
+    return function(){
+        console.log('hey whtspp');
+        
+    }
+}
+
+const retFunc = retFunct()
+    retFunc();
+
+    // Arrow function 
+
+ 
